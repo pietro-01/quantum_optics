@@ -32,7 +32,7 @@ def plot_wigner_psi_phi(psi,alpha_max = 7.5):
     ax.set_xlim(-alpha_max,alpha_max)
     plt.show()
 
-N = 2 #scelgo la dimensione dell'Hilbert space
+N = 1 #scelgo la dimensione dell'Hilbert space
 psi = qt.fock(N,1) #creo un vettore di dimensione N che rappresenta un Fock state 
 plot_wigner_psi_phi(psi)
 
